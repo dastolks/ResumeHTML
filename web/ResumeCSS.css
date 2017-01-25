@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2017, 3:58:52 PM
+    Author     : Alec
+*/
+h1 {
+	font-family: Georgia; 
+	text-shadow: 1px 1px 1px #666666;
+}
+header{
+	background-color:#5599CC;
+	border: 2px solid #000000;	
+	text-align: center;
+}
+
+main{
+	background-color:#5599CC;
+        background-image: linear-gradient(to bottom, #77AACC, #5599CC); 
+        background-repeat: no-repeat;
+	border: 2px solid #000000;
+	display:block;
+	text-shadow: 1px 1px 1px #666666;
+	padding: 0px 0px 0px 30px;
+}
+nav { 
+	text-align: center;
+	background-color:#55AACC;
+        border: 2px solid #000000;
+	display: block;
+	font-weight: bold; 
+	padding: 10px;
+	
+}
+nav a{
+	text-decoration: none;
+	transition: color 0.5s linear;
+}
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #FFFFFF;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 1.2em;
+}
+footer{
+    text-align: center;
+    font-size: .8em;
+    background-color:#55AACC;
+    border: 2px solid #000000;
+    padding: 10px;
+	display: block;
+	font-style: italic; 
+	
+	font-family: TimesNewRoman;
+	float:clear;
+}
+body{
+	width: 95%;
+	background-color:#4F6D93;
+    background-image:linear-gradient(to bottom, #FFFFFF, #4F6D93); 
+    background-repeat:no-repeat; 
+        
+}
+#summary{
+	text-align:center;
+	font-size: .9em;
+	color: #333333;
+}
+@media only screen and (max-width:64em){
+	body{
+		width: auto;
+	}	
+}
+@media only screen and (max-width:37.5em){
+	body{
+		width: auto;
+	}	
+}
